@@ -1,3 +1,6 @@
+import * from "./manipulate.js";
+import * from "./search.js";
+
 changeTitle();
 changeHeader();
 changeAboutMe();
