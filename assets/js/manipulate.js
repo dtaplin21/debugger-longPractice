@@ -18,5 +18,6 @@ export function changeAboutMe() {
     /* Update the first paragraph in the About Me section with a small
      passage about yourself */
 
-    // Your code here
+    const par = document.querySelector("p");
+    par.innerText = "im amazing, dirty stache, love lo"
 }
