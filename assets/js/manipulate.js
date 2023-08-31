@@ -1,4 +1,6 @@
 export function changeTitle() {
+     document.title = "mustache"
+
     // Change the title of the page to "(Your name)'s Portfolio"
 
     // Your code here
@@ -7,7 +9,9 @@ export function changeTitle() {
 export function changeHeader() {
     // Change the name in the h1 of the page to your name
 
-    // Your code here
+    const head = document.getElementById("header").children
+    head[0].innerText = "Red Head"
+    //console.log(head)
 }
 
 export function changeAboutMe() {
